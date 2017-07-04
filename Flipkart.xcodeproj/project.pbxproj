@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2DB4471DE839A200393E20 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DB4461DE839A200393E20 /* SWRevealViewController.m */; };
+		7A2DB4491DE83F3700393E20 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DB4481DE83F3700393E20 /* BackTableVC.swift */; };
+		7A2DB44B1DE8720600393E20 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DB44A1DE8720600393E20 /* OrdersViewController.swift */; };
+		7A92C7001DE6FC4100A41DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92C6FF1DE6FC4100A41DFA /* AppDelegate.swift */; };
+		7A92C7071DE6FC4100A41DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A92C7051DE6FC4100A41DFA /* Main.storyboard */; };
+		7A92C7091DE6FC4200A41DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A92C7081DE6FC4200A41DFA /* Assets.xcassets */; };
+		7A92C70C1DE6FC4200A41DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A92C70A1DE6FC4200A41DFA /* LaunchScreen.storyboard */; };
+		7A92C7221DE705FF00A41DFA /* DashboardTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92C7211DE705FF00A41DFA /* DashboardTabBarViewController.swift */; };
+		7A92C7241DE70B5400A41DFA /* BuyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92C7231DE70B5400A41DFA /* BuyNowViewController.swift */; };
+		7A92C7261DE70B6300A41DFA /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92C7251DE70B6300A41DFA /* AddToCartViewController.swift */; };
+		7A92C7281DE70EC000A41DFA /* ElectronicItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92C7271DE70EC000A41DFA /* ElectronicItemViewController.swift */; };
+		7AD77CC71DF6FB5200E51DE2 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD77CC61DF6FB5200E51DE2 /* OrderDetailsViewController.swift */; };
+		7AE38BC71DF7D74C00050774 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE38BC61DF7D74C00050774 /* CellView.xib */; };
+		7AE38BC91DF7D7AF00050774 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE38BC81DF7D7AF00050774 /* CallView.swift */; };
+		7AE38BCF1DF7E53B00050774 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE38BCE1DF7E53B00050774 /* CalendarViewController.swift */; };
+		7AF42B821DEBED590084B5B1 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B811DEBED590084B5B1 /* AccountsViewController.swift */; };
+		7AF42B841DEBF12D0084B5B1 /* LoginLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B831DEBF12D0084B5B1 /* LoginLogoutViewController.swift */; };
+		7AF42B861DEC14CE0084B5B1 /* ElectronicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B851DEC14CE0084B5B1 /* ElectronicsTableViewController.swift */; };
+		7AF42B881DEC29920084B5B1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B871DEC29920084B5B1 /* HomeTableViewController.swift */; };
+		7AF42B8E1DEC2CCE0084B5B1 /* HomeItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B8D1DEC2CCE0084B5B1 /* HomeItemViewController.swift */; };
+		7AF42B901DEC2E930084B5B1 /* LifestyleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B8F1DEC2E930084B5B1 /* LifestyleTableViewController.swift */; };
+		7AF42B921DEC2EB00084B5B1 /* LifestyleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B911DEC2EB00084B5B1 /* LifestyleItemViewController.swift */; };
+		7AF42B941DEC32200084B5B1 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B931DEC32200084B5B1 /* MoreTableViewController.swift */; };
+		7AF42B961DEC322F0084B5B1 /* MoreItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B951DEC322F0084B5B1 /* MoreItemViewController.swift */; };
+		7AF42B981DEC37CF0084B5B1 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B971DEC37CF0084B5B1 /* SummaryViewController.swift */; };
+		7AF42B9A1DEC45C50084B5B1 /* OffersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B991DEC45C50084B5B1 /* OffersCollectionViewController.swift */; };
+		7AF42B9C1DEC4D8D0084B5B1 /* OffersItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42B9B1DEC4D8D0084B5B1 /* OffersItemViewController.swift */; };
+		7AFF60C81DED5AC2005F7456 /* OffersItemsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF60C71DED5AC2005F7456 /* OffersItemsLayout.swift */; };
+		9DBCAE75E6391602DF51CE57 /* Pods_Flipkart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905422F43C83516991667F9C /* Pods_Flipkart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43B059F9BE6CF1162C37C50F /* Pods-Flipkart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipkart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flipkart/Pods-Flipkart.release.xcconfig"; sourceTree = "<group>"; };
+		6562A419F77B9DEB54AB7B00 /* Pods-Flipkart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipkart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flipkart/Pods-Flipkart.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2DB4441DE839A200393E20 /* Flipkart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flipkart-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A2DB4451DE839A200393E20 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7A2DB4461DE839A200393E20 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7A2DB4481DE83F3700393E20 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		7A2DB44A1DE8720600393E20 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		7A92C6FC1DE6FC4100A41DFA /* Flipkart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipkart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A92C6FF1DE6FC4100A41DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A92C7061DE6FC4100A41DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A92C7081DE6FC4200A41DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A92C70B1DE6FC4200A41DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A92C70D1DE6FC4200A41DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A92C7211DE705FF00A41DFA /* DashboardTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTabBarViewController.swift; sourceTree = "<group>"; };
+		7A92C7231DE70B5400A41DFA /* BuyNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNowViewController.swift; sourceTree = "<group>"; };
+		7A92C7251DE70B6300A41DFA /* AddToCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		7A92C7271DE70EC000A41DFA /* ElectronicItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectronicItemViewController.swift; sourceTree = "<group>"; };
+		7AD77CC61DF6FB5200E51DE2 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		7AE38BC61DF7D74C00050774 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		7AE38BC81DF7D7AF00050774 /* CallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		7AE38BCE1DF7E53B00050774 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		7AF42B811DEBED590084B5B1 /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		7AF42B831DEBF12D0084B5B1 /* LoginLogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginLogoutViewController.swift; sourceTree = "<group>"; };
+		7AF42B851DEC14CE0084B5B1 /* ElectronicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectronicsTableViewController.swift; sourceTree = "<group>"; };
+		7AF42B871DEC29920084B5B1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		7AF42B8D1DEC2CCE0084B5B1 /* HomeItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeItemViewController.swift; sourceTree = "<group>"; };
+		7AF42B8F1DEC2E930084B5B1 /* LifestyleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifestyleTableViewController.swift; sourceTree = "<group>"; };
+		7AF42B911DEC2EB00084B5B1 /* LifestyleItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifestyleItemViewController.swift; sourceTree = "<group>"; };
+		7AF42B931DEC32200084B5B1 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		7AF42B951DEC322F0084B5B1 /* MoreItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreItemViewController.swift; sourceTree = "<group>"; };
+		7AF42B971DEC37CF0084B5B1 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		7AF42B991DEC45C50084B5B1 /* OffersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersCollectionViewController.swift; sourceTree = "<group>"; };
+		7AF42B9B1DEC4D8D0084B5B1 /* OffersItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersItemViewController.swift; sourceTree = "<group>"; };
+		7AFF60C71DED5AC2005F7456 /* OffersItemsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersItemsLayout.swift; sourceTree = "<group>"; };
+		905422F43C83516991667F9C /* Pods_Flipkart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flipkart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A92C6F91DE6FC4100A41DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBCAE75E6391602DF51CE57 /* Pods_Flipkart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06307102DBA08A0354CB84EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				905422F43C83516991667F9C /* Pods_Flipkart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A1AFB9D585A990B3895C689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6562A419F77B9DEB54AB7B00 /* Pods-Flipkart.debug.xcconfig */,
+				43B059F9BE6CF1162C37C50F /* Pods-Flipkart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A2DB4431DE8398F00393E20 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DB4451DE839A200393E20 /* SWRevealViewController.h */,
+				7A2DB4461DE839A200393E20 /* SWRevealViewController.m */,
+				7A2DB4441DE839A200393E20 /* Flipkart-Bridging-Header.h */,
+				7A2DB4481DE83F3700393E20 /* BackTableVC.swift */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		7A92C6F31DE6FC4100A41DFA = {
+			isa = PBXGroup;
+			children = (
+				7A92C6FE1DE6FC4100A41DFA /* Flipkart */,
+				7A92C6FD1DE6FC4100A41DFA /* Products */,
+				1A1AFB9D585A990B3895C689 /* Pods */,
+				06307102DBA08A0354CB84EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A92C6FD1DE6FC4100A41DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A92C6FC1DE6FC4100A41DFA /* Flipkart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A92C6FE1DE6FC4100A41DFA /* Flipkart */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DB4431DE8398F00393E20 /* SWRevealViewController */,
+				7AF42B801DEBED190084B5B1 /* Menu Items */,
+				7AF42B7F1DEBECF10084B5B1 /* Dashboard */,
+				7A92C7201DE7019100A41DFA /* Storyboard */,
+				7A92C71F1DE7017F00A41DFA /* Supporting Files */,
+				7AE38BC51DF7D71F00050774 /* Calendar */,
+			);
+			path = Flipkart;
+			sourceTree = "<group>";
+		};
+		7A92C71F1DE7017F00A41DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A92C6FF1DE6FC4100A41DFA /* AppDelegate.swift */,
+				7A92C7081DE6FC4200A41DFA /* Assets.xcassets */,
+				7A92C70D1DE6FC4200A41DFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A92C7201DE7019100A41DFA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A92C7051DE6FC4100A41DFA /* Main.storyboard */,
+				7A92C70A1DE6FC4200A41DFA /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7A92C7291DE71C0200A41DFA /* Electronics */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B851DEC14CE0084B5B1 /* ElectronicsTableViewController.swift */,
+				7A92C7271DE70EC000A41DFA /* ElectronicItemViewController.swift */,
+			);
+			name = Electronics;
+			sourceTree = "<group>";
+		};
+		7AD77CC51DF6FB2600E51DE2 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DB44A1DE8720600393E20 /* OrdersViewController.swift */,
+				7AD77CC61DF6FB5200E51DE2 /* OrderDetailsViewController.swift */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		7AE38BC51DF7D71F00050774 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7AE38BC61DF7D74C00050774 /* CellView.xib */,
+				7AE38BC81DF7D7AF00050774 /* CallView.swift */,
+				7AE38BCE1DF7E53B00050774 /* CalendarViewController.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		7AF42B7F1DEBECF10084B5B1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A92C7211DE705FF00A41DFA /* DashboardTabBarViewController.swift */,
+				7AF42B891DEC2C690084B5B1 /* Home */,
+				7A92C7291DE71C0200A41DFA /* Electronics */,
+				7AF42B8A1DEC2C850084B5B1 /* Lifestyle */,
+				7AF42B8B1DEC2C8E0084B5B1 /* Offer */,
+				7AF42B8C1DEC2C930084B5B1 /* More */,
+				7AF42B971DEC37CF0084B5B1 /* SummaryViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		7AF42B801DEBED190084B5B1 /* Menu Items */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B811DEBED590084B5B1 /* AccountsViewController.swift */,
+				7A92C7251DE70B6300A41DFA /* AddToCartViewController.swift */,
+				7A92C7231DE70B5400A41DFA /* BuyNowViewController.swift */,
+				7AD77CC51DF6FB2600E51DE2 /* Order */,
+				7AF42B831DEBF12D0084B5B1 /* LoginLogoutViewController.swift */,
+			);
+			name = "Menu Items";
+			sourceTree = "<group>";
+		};
+		7AF42B891DEC2C690084B5B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B871DEC29920084B5B1 /* HomeTableViewController.swift */,
+				7AF42B8D1DEC2CCE0084B5B1 /* HomeItemViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7AF42B8A1DEC2C850084B5B1 /* Lifestyle */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B8F1DEC2E930084B5B1 /* LifestyleTableViewController.swift */,
+				7AF42B911DEC2EB00084B5B1 /* LifestyleItemViewController.swift */,
+			);
+			name = Lifestyle;
+			sourceTree = "<group>";
+		};
+		7AF42B8B1DEC2C8E0084B5B1 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B991DEC45C50084B5B1 /* OffersCollectionViewController.swift */,
+				7AF42B9B1DEC4D8D0084B5B1 /* OffersItemViewController.swift */,
+				7AFF60C71DED5AC2005F7456 /* OffersItemsLayout.swift */,
+			);
+			name = Offer;
+			sourceTree = "<group>";
+		};
+		7AF42B8C1DEC2C930084B5B1 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				7AF42B931DEC32200084B5B1 /* MoreTableViewController.swift */,
+				7AF42B951DEC322F0084B5B1 /* MoreItemViewController.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A92C6FB1DE6FC4100A41DFA /* Flipkart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A92C7101DE6FC4200A41DFA /* Build configuration list for PBXNativeTarget "Flipkart" */;
+			buildPhases = (
+				6A7F6A99FD3BB664344074AA /* [CP] Check Pods Manifest.lock */,
+				7A92C6F81DE6FC4100A41DFA /* Sources */,
+				7A92C6F91DE6FC4100A41DFA /* Frameworks */,
+				7A92C6FA1DE6FC4100A41DFA /* Resources */,
+				32CC6C817CC81A9F67F6075A /* [CP] Embed Pods Frameworks */,
+				EF38125FD86061CF26723B64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipkart;
+			productName = Flipkart;
+			productReference = 7A92C6FC1DE6FC4100A41DFA /* Flipkart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A92C6F41DE6FC4100A41DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Prashuk;
+				TargetAttributes = {
+					7A92C6FB1DE6FC4100A41DFA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LSVVD8ZPH6;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7A92C6F71DE6FC4100A41DFA /* Build configuration list for PBXProject "Flipkart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A92C6F31DE6FC4100A41DFA;
+			productRefGroup = 7A92C6FD1DE6FC4100A41DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A92C6FB1DE6FC4100A41DFA /* Flipkart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A92C6FA1DE6FC4100A41DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE38BC71DF7D74C00050774 /* CellView.xib in Resources */,
+				7A92C70C1DE6FC4200A41DFA /* LaunchScreen.storyboard in Resources */,
+				7A92C7091DE6FC4200A41DFA /* Assets.xcassets in Resources */,
+				7A92C7071DE6FC4100A41DFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32CC6C817CC81A9F67F6075A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipkart/Pods-Flipkart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7F6A99FD3BB664344074AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF38125FD86061CF26723B64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipkart/Pods-Flipkart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A92C6F81DE6FC4100A41DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE38BCF1DF7E53B00050774 /* CalendarViewController.swift in Sources */,
+				7AF42B9C1DEC4D8D0084B5B1 /* OffersItemViewController.swift in Sources */,
+				7A92C7241DE70B5400A41DFA /* BuyNowViewController.swift in Sources */,
+				7AF42B961DEC322F0084B5B1 /* MoreItemViewController.swift in Sources */,
+				7AF42B981DEC37CF0084B5B1 /* SummaryViewController.swift in Sources */,
+				7AE38BC91DF7D7AF00050774 /* CallView.swift in Sources */,
+				7AF42B861DEC14CE0084B5B1 /* ElectronicsTableViewController.swift in Sources */,
+				7A2DB4491DE83F3700393E20 /* BackTableVC.swift in Sources */,
+				7AD77CC71DF6FB5200E51DE2 /* OrderDetailsViewController.swift in Sources */,
+				7AFF60C81DED5AC2005F7456 /* OffersItemsLayout.swift in Sources */,
+				7AF42B8E1DEC2CCE0084B5B1 /* HomeItemViewController.swift in Sources */,
+				7AF42B841DEBF12D0084B5B1 /* LoginLogoutViewController.swift in Sources */,
+				7AF42B9A1DEC45C50084B5B1 /* OffersCollectionViewController.swift in Sources */,
+				7A92C7261DE70B6300A41DFA /* AddToCartViewController.swift in Sources */,
+				7AF42B921DEC2EB00084B5B1 /* LifestyleItemViewController.swift in Sources */,
+				7AF42B881DEC29920084B5B1 /* HomeTableViewController.swift in Sources */,
+				7A92C7221DE705FF00A41DFA /* DashboardTabBarViewController.swift in Sources */,
+				7AF42B941DEC32200084B5B1 /* MoreTableViewController.swift in Sources */,
+				7A92C7281DE70EC000A41DFA /* ElectronicItemViewController.swift in Sources */,
+				7A2DB44B1DE8720600393E20 /* OrdersViewController.swift in Sources */,
+				7A2DB4471DE839A200393E20 /* SWRevealViewController.m in Sources */,
+				7AF42B901DEC2E930084B5B1 /* LifestyleTableViewController.swift in Sources */,
+				7A92C7001DE6FC4100A41DFA /* AppDelegate.swift in Sources */,
+				7AF42B821DEBED590084B5B1 /* AccountsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A92C7051DE6FC4100A41DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A92C7061DE6FC4100A41DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A92C70A1DE6FC4200A41DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A92C70B1DE6FC4200A41DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A92C70E1DE6FC4200A41DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A92C70F1DE6FC4200A41DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A92C7111DE6FC4200A41DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6562A419F77B9DEB54AB7B00 /* Pods-Flipkart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
+				INFOPLIST_FILE = Flipkart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.Flipkart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "Flipkart/Flipkart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A92C7121DE6FC4200A41DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B059F9BE6CF1162C37C50F /* Pods-Flipkart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
+				INFOPLIST_FILE = Flipkart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.Flipkart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "Flipkart/Flipkart-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A92C6F71DE6FC4100A41DFA /* Build configuration list for PBXProject "Flipkart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A92C70E1DE6FC4200A41DFA /* Debug */,
+				7A92C70F1DE6FC4200A41DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A92C7101DE6FC4200A41DFA /* Build configuration list for PBXNativeTarget "Flipkart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A92C7111DE6FC4200A41DFA /* Debug */,
+				7A92C7121DE6FC4200A41DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A92C6F41DE6FC4100A41DFA /* Project object */;
+}
