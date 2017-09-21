@@ -293,7 +293,7 @@
 					7A92C6FB1DE6FC4100A41DFA = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = LSVVD8ZPH6;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -539,7 +539,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Flipkart/Flipkart-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -558,7 +559,8 @@
 				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Flipkart/Flipkart-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

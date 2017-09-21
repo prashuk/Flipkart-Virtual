@@ -31,7 +31,7 @@ class MoreTableViewController: UITableViewController, UISearchResultsUpdating {
         definesPresentationContext = true
         
         navigationController?.navigationBar.barTintColor = UIColor(red: 16/255, green: 123/255, blue: 213/255, alpha: 1.0)
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationController?.navigationBar.tintColor = UIColor.white
         
         Open.target = self.revealViewController()

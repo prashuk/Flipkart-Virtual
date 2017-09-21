@@ -24,7 +24,7 @@ class HomeTableViewController: UITableViewController, UISearchResultsUpdating {
         super.viewDidLoad()
         
         navigationController?.navigationBar.barTintColor = UIColor(red: 26/255, green: 117/255, blue: 255/255, alpha: 1.0)
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationController?.navigationBar.tintColor = UIColor.white
         
         Open.target = self.revealViewController()

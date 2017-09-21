@@ -18,7 +18,6 @@ class AddToCartViewController: UIViewController, UITableViewDelegate, UITableVie
     @IBOutlet weak var noItemsView: UIView!
     
     var flag = 0
-    let flag2 = Dictionary<Int;:String, Any>()
     
     override func viewDidLoad() {
         
@@ -27,7 +26,7 @@ class AddToCartViewController: UIViewController, UITableViewDelegate, UITableVie
         self.tabBarController?.tabBar.isHidden = true
         
         navigationController?.navigationBar.barTintColor = UIColor(red: 26/255, green: 117/255, blue: 255/255, alpha: 1.0)
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationController?.navigationBar.tintColor = UIColor.white
         
         noItemsView.isHidden = true
