@@ -37,7 +37,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="7nQ-iH-kxl">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="ghB-cs-8sB"/>
+                        <barButtonItem key="leftBarButtonItem" image="menu" style="plain" id="ghB-cs-8sB"/>
                         <rightBarButtonItems>
                             <barButtonItem image="cart" id="e66-DU-d08">
                                 <connections>
@@ -1391,20 +1391,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back" width="20" height="20"/>
-        <image name="cart" width="20" height="20"/>
-        <image name="electrnics" width="20" height="20"/>
+        <image name="back" width="24" height="24"/>
+        <image name="cart" width="24" height="24"/>
+        <image name="electrnics" width="24" height="24"/>
         <image name="flipkart" width="477" height="331"/>
-        <image name="home" width="20" height="20"/>
-        <image name="lifestyle" width="20" height="20"/>
+        <image name="home" width="24" height="24"/>
+        <image name="lifestyle" width="24" height="24"/>
         <image name="menu" width="24" height="24"/>
-        <image name="more" width="20" height="20"/>
-        <image name="offers" width="20" height="20"/>
+        <image name="more" width="24" height="24"/>
+        <image name="offers" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Zxv-NY-rKd"/>
         <segue reference="De7-xV-AQk"/>
         <segue reference="vhn-sG-WT6"/>
-        <segue reference="hDE-jx-xnC"/>
+        <segue reference="O2J-cS-vCc"/>
     </inferredMetricsTieBreakers>
 </document>
